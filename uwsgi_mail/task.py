@@ -2,7 +2,7 @@ from uwsgidecorators import spool
 try:
     from cPickle import loads
 except ImportError:
-    from Pickle import loads
+    from pickle import loads
 
 from django.conf import settings
 from django.core.mail import get_connection
